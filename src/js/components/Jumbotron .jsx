@@ -1,16 +1,15 @@
-import react from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
 const jumbotron = () => {
     return (
-        <div class="container py-4">
-            <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                <div class="container-fluid py-5">
-                    <h1 class="display-5 fw-bold">A Warm Welcome!</h1>
-                    <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vehicula et orci eu fringilla.
-                        Etiam pretium, neque sed accumsan aliquam, enim nibh imperdiet dui, id t</p>
-                        <button class="btn btn-primary btn-lg" type="button">Call To action!</button>
+        <div className="container py-4">
+            <div className="p-5 mb-4 bg-body-tertiary rounded-3">
+                <div className="container-fluid py-5 text-center">
+                    <h1 className="display-5 fw-bold">¡Bienvenido en el Nombre de Jesús!</h1>
+                    <p className="text-center mt-4 fs-4">"Yo soy el camino, la verdad y la vida; nadie viene al Padre sino por mí" - Juan 14:6</p>
+                        <button className="btn btn-primary btn-lg" type="button"><i className="fas fa-book-bible me-2"></i>Conocer a Cristo</button>
                 </div>
             </div>
         </div>
