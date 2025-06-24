@@ -1,6 +1,5 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Para íconos
 import buenPastor from "../../img/buenPastor.jpg";
 import imagen3 from "../../img/imagen3.jpg";
 import imagen1 from "../../img/imagen1.jpg";
